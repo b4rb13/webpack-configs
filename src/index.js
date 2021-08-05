@@ -1,3 +1,5 @@
+import "./styles/index.scss";
+
 const ucraftMainTeams = {
   hoory: "good team",
   builder: "cool team",
