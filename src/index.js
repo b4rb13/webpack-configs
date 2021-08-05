@@ -1,16 +1,4 @@
-import "./styles/index.scss";
+import { render } from "react-dom";
+import App from "./components/App";
 
-const ucraftMainTeams = {
-  hoory: "good team",
-  builder: "cool team",
-  ucCommerce: "best team :D",
-};
-
-const ucraftAllTeams = {
-  ...ucraftMainTeams,
-  springBuilder: "really big team",
-  aiTeam: "Levon is master jedi",
-};
-
-console.log(ucraftMainTeams);
-console.log(ucraftAllTeams);
+render(<App />, document.getElementById("root"));
